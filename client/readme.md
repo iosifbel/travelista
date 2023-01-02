@@ -1,0 +1,1 @@
+This folder should contain client code. Please delete this file after first commit!
