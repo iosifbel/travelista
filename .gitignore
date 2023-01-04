@@ -35,6 +35,7 @@ replay_pid*
 /dist
 /tmp
 /out-tsc
+target/
 
 # Runtime data
 pids
