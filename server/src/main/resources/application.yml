@@ -1,0 +1,11 @@
+server.servlet.context-path: /travelista/api
+
+spring:
+  profiles:
+    include: destinations
+
+#api
+api:
+  google:
+    googleApiKey: ${GOOGLE_API_KEY}
+
