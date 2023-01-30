@@ -1,0 +1,38 @@
+.new-trip-panel {
+    width: 520px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.new-trip-panel h2 {
+    margin-bottom: 45px;
+    font-size: 32px;
+}
+
+.new-trip-panel .search-location {
+    border: 1px solid #ccc;
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.new-trip-panel .search-location .text {
+    margin-right: 10px;
+}
+
+.new-trip-panel .search-location .input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    flex: 1;
+}
