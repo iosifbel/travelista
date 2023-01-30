@@ -2,6 +2,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { LandingPage } from './views/landing/LandingPage';
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 function App() {
   return (
     <div className="App">
