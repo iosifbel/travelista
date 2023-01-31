@@ -1,0 +1,11 @@
+.search-results {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    top: 50px;
+    border-radius: 5px;
+    z-index: 1000;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+}
