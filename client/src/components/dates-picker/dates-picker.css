@@ -1,0 +1,60 @@
+.dates-picker {
+    position: relative;
+    width: 100%;
+}
+
+.dates-picker .input-container {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+    padding-bottom: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dates-picker .input-container .calendar-icon {
+    margin-right: 5px;
+    font-size: 18px;
+    color: #1C82AD;
+    transition: .2s;
+}
+
+.dates-picker .input-container .calendar-icon:hover {
+    color: #1c81adad;
+    cursor: pointer;
+}
+
+.dates-picker .input-container .text-container {
+    position: relative;
+}
+
+.dates-picker .input-container .text-container .text {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.dates-picker .input-container .text-container .selected-dates {
+    display: flex;
+    align-items: center;
+}
+
+.dates-picker .input-container .text-container .selected-dates .date {
+    color: rgb(70, 70, 70);
+}
+
+.dates-picker .input-container .text-container .selected-dates .divider {
+    margin: 0 18px;
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background-color: rgb(70, 70, 70);
+    margin-top: 3px;
+}
+
+.dates-picker .date-range {
+    position: absolute;
+    top: 30px;
+    left: -50%;
+}

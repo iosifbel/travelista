@@ -1,0 +1,33 @@
+.search-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-bottom: 1px solid white;
+    background-color: rgba(204, 204, 204, 0.267);
+}
+
+.search-item:hover {
+    background-color: rgba(204, 204, 204, 0.486);
+    cursor: pointer;
+}
+
+.search-item:last-child {
+    border: none;
+}
+
+.search-item .name {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.search-item .country {
+    font-weight: 300;
+    color: rgb(97, 97, 97);
+}
+
+.search-item .type {
+    font-weight: 500;
+}
