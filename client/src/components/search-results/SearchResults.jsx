@@ -3,13 +3,12 @@ import SearchItem from '../search-item/SearchItem'
 
 import './search-results.css'
 
-const SearchResults = ({showRef}) => {
+const SearchResults = ({showRef, results}) => {
   return (
     <div className='search-results' ref={showRef}>
-        <SearchItem />
-        <SearchItem />
-        <SearchItem />
-        <SearchItem />
+        {results.map(location => (
+          <SearchItem location={location} key={location.name}/>
+        ))}
     </div>
   )
 }
