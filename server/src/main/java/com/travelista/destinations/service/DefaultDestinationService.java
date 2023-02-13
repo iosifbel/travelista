@@ -32,6 +32,7 @@ public class DefaultDestinationService implements DestinationsService {
                                         .types(properties.getDestinationsCategories())
                                         .await();
         List<Destination> destinations = createDestinations(results);
+        // TODO filter destinations by type
         return mapper.convertList(destinations);
     }
 
